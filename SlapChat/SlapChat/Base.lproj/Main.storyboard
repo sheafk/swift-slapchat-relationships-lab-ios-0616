@@ -32,27 +32,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="gLk-Fv-w8B"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="pJL-My-p6G" id="mtV-0a-R1X"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDP-5Q-X06" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="SbS-Ai-6Fm">
-                    <connections>
-                        <outlet property="delegate" destination="eMg-Pq-MgB" id="gzY-Ap-ltX"/>
-                        <outlet property="searchContentsController" destination="eMg-Pq-MgB" id="Dpy-rM-yBX"/>
-                        <outlet property="searchResultsDataSource" destination="eMg-Pq-MgB" id="Kaf-RP-38J"/>
-                        <outlet property="searchResultsDelegate" destination="eMg-Pq-MgB" id="b3d-rV-iKP"/>
-                    </connections>
-                </searchDisplayController>
-                <searchDisplayController id="pJL-My-p6G">
-                    <connections>
-                        <outlet property="delegate" destination="eMg-Pq-MgB" id="qgf-ZE-Nwk"/>
-                        <outlet property="searchContentsController" destination="eMg-Pq-MgB" id="NHk-A0-U87"/>
-                        <outlet property="searchResultsDataSource" destination="eMg-Pq-MgB" id="wmB-xI-crC"/>
-                        <outlet property="searchResultsDelegate" destination="eMg-Pq-MgB" id="Q13-wr-VHV"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1295" y="-78"/>
         </scene>
